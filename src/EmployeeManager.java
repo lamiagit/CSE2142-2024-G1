@@ -7,6 +7,10 @@ public class EmployeeManager
 {
 	public static void main(String[] args)
 	{
+        if (args.length != 1) { 
+            System.out.println("Error: Please provide exactly one argument."); 
+            return; 
+        } 
 		// Check arguments
 		if (args[0].equals("l"))
 		{
